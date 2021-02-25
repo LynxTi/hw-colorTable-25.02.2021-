@@ -1,0 +1,28 @@
+.table {
+    width: calc(100% - 12px);
+    height: calc(100vh - 12px);
+    margin: 5px;
+    border-collapse: collapse;
+}
+
+.table__tr {
+    height: calc(100% / 7);
+    border: 1px solid black;
+
+}
+
+.table__td {
+    width: calc(100% / 8);
+}
+
+.table__tr:nth-child(2n+1) {
+    background-color: yellow;
+}
+
+.table__tr:last-child {
+    background-color: red;
+}
+
+.table__td:hover {
+    border: 1px solid blue;
+}
